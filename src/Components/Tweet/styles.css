@@ -1,0 +1,46 @@
+.tweet__main-container {
+  width: 450px;
+  padding: 20px 10px;
+}
+
+.tweet__post-section {
+  width: 100%;
+  max-width: 450px;
+  min-height: 150px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 18px 18px 0 0;
+  padding: 10px 15px;
+  box-sizing: border-box;
+
+}
+
+.tweet__interaction-section {
+  width: 100%;
+  max-width: 450px;
+  padding: 10px 15px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 0 0 18px 18px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+.tweet__likes-amount {
+  margin: 0 0 0 10px;
+  font-weight: bolder;
+}
+
+.tweet__heart-icon, 
+.tweet__heartempty-icon {
+  cursor: pointer;
+}
+
+
+.tweet__trash-icon {
+  position: absolute;
+  right: 4%;
+  margin: auto 0;
+  cursor: pointer;
+}
